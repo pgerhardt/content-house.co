@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Content House</title>
+  <meta name="description" content="Strategy and design for modern brands, from concept to execution." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Creative Content House" />
+  <meta property="og:description" content="Strategy and design for modern brands, from concept to execution." />
+  <meta property="og:image" content="assets/og-image.png" />
+  <meta property="og:type" content="website" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container" role="main">
+    <a class="logo" href="/" aria-label="Creative Content House Home">CREATIVE CONTENT HOUSE</a>
+    <h1>Creative Content House</h1>
+    <p class="tagline">Strategy and design for modern brands, from concept to execution.</p>
+    <div class="capabilities" aria-label="Capabilities">
+      <span>Consulting</span>
+      <span>Video</span>
+      <span>Brand Design</span>
+      <span>Web</span>
+      <span>Social</span>
+    </div>
+    <a class="cta" href="#" aria-label="Purchase a session">Purchase Session</a>
+    <div class="footer">© <span id="year"></span> Creative Content House. All rights reserved.</div>
+  </main>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
